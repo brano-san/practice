@@ -1,0 +1,7 @@
+C:\Users\brano\source\repos\week_1\ex_9\bin\Debug\ex_9.exe.config
+C:\Users\brano\source\repos\week_1\ex_9\bin\Debug\ex_9.exe
+C:\Users\brano\source\repos\week_1\ex_9\bin\Debug\ex_9.pdb
+C:\Users\brano\source\repos\week_1\ex_9\obj\Debug\ex_9.csproj.AssemblyReference.cache
+C:\Users\brano\source\repos\week_1\ex_9\obj\Debug\ex_9.csproj.CoreCompileInputs.cache
+C:\Users\brano\source\repos\week_1\ex_9\obj\Debug\ex_9.exe
+C:\Users\brano\source\repos\week_1\ex_9\obj\Debug\ex_9.pdb

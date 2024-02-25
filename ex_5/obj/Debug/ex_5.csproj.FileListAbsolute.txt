@@ -1,0 +1,7 @@
+C:\Users\brano\source\repos\week_1\ex_5\bin\Debug\ex_5.exe.config
+C:\Users\brano\source\repos\week_1\ex_5\bin\Debug\ex_5.exe
+C:\Users\brano\source\repos\week_1\ex_5\bin\Debug\ex_5.pdb
+C:\Users\brano\source\repos\week_1\ex_5\obj\Debug\ex_5.csproj.AssemblyReference.cache
+C:\Users\brano\source\repos\week_1\ex_5\obj\Debug\ex_5.csproj.CoreCompileInputs.cache
+C:\Users\brano\source\repos\week_1\ex_5\obj\Debug\ex_5.exe
+C:\Users\brano\source\repos\week_1\ex_5\obj\Debug\ex_5.pdb

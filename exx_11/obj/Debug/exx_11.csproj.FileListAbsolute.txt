@@ -1,0 +1,10 @@
+C:\Users\brano\source\repos\week_1\exx_11\bin\Debug\exx_11.exe.config
+C:\Users\brano\source\repos\week_1\exx_11\bin\Debug\exx_11.exe
+C:\Users\brano\source\repos\week_1\exx_11\bin\Debug\exx_11.pdb
+C:\Users\brano\source\repos\week_1\exx_11\obj\Debug\exx_11.csproj.AssemblyReference.cache
+C:\Users\brano\source\repos\week_1\exx_11\obj\Debug\exx_11.Form1.resources
+C:\Users\brano\source\repos\week_1\exx_11\obj\Debug\exx_11.Properties.Resources.resources
+C:\Users\brano\source\repos\week_1\exx_11\obj\Debug\exx_11.csproj.GenerateResource.cache
+C:\Users\brano\source\repos\week_1\exx_11\obj\Debug\exx_11.csproj.CoreCompileInputs.cache
+C:\Users\brano\source\repos\week_1\exx_11\obj\Debug\exx_11.exe
+C:\Users\brano\source\repos\week_1\exx_11\obj\Debug\exx_11.pdb

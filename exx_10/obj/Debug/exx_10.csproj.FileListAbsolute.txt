@@ -1,0 +1,7 @@
+C:\Users\brano\source\repos\week_1\exx_10\bin\Debug\exx_10.exe.config
+C:\Users\brano\source\repos\week_1\exx_10\bin\Debug\exx_10.exe
+C:\Users\brano\source\repos\week_1\exx_10\bin\Debug\exx_10.pdb
+C:\Users\brano\source\repos\week_1\exx_10\obj\Debug\exx_10.csproj.AssemblyReference.cache
+C:\Users\brano\source\repos\week_1\exx_10\obj\Debug\exx_10.csproj.CoreCompileInputs.cache
+C:\Users\brano\source\repos\week_1\exx_10\obj\Debug\exx_10.exe
+C:\Users\brano\source\repos\week_1\exx_10\obj\Debug\exx_10.pdb

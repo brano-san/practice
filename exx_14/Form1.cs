@@ -10,7 +10,7 @@ namespace exx_14
         private int _size;
         private int _interval;
         private int[,] _ticks ;
-        private PictureBox[,] _pictureBoxes;
+        private Panel[,] _panels;
         private bool _isOn = false;
 
         Random rnd = new Random();
@@ -55,7 +55,7 @@ namespace exx_14
                 {
                     for (int j = 0; j < _size; j++)
                     {
-                        Controls.Remove(_pictureBoxes[i, j]);
+                        Controls.Remove(_panels[i, j]);
                     }
                 }
                 timer.Stop();
@@ -68,23 +68,23 @@ namespace exx_14
                 int pictureSide = 100 / (_size / 3);
 
                 _ticks = new int[_size, _size];
-                _pictureBoxes = new PictureBox[_size, _size];
+                _panels = new Panel[_size, _size];
                 for (int i = 0; i < _size; i++)
                 {
                     for (int j = 0; j < _size; j++)
                     {
                         _ticks[i, j] = 0;
-                        _pictureBoxes[i, j] = new PictureBox()
+                        _panels[i, j] = new Panel()
                         {
                             BackColor = Color.White,
                             Size = new Size(pictureSide, pictureSide),
                             Location = new Point((5 + pictureSide) * i + 5, (5 + pictureSide) * j + 5)
                         };
-                        Controls.Add(_pictureBoxes[i, j]);
+                        Controls.Add(_panels[i, j]);
                     }
                 }
 
-                _pictureBoxes[_size / 2, _size / 2].BackColor = Color.Red;
+                _panels[_size / 2, _size / 2].BackColor = Color.Red;
                 timer.Start();
             }
         }
@@ -95,11 +95,11 @@ namespace exx_14
             {
                 for (int j = 0; j < _size; j++)
                 {
-                    if (_pictureBoxes[i, j].BackColor != Color.White)
+                    if (_panels[i, j].BackColor != Color.White)
                         _ticks[i, j]++;
 
                     int r = rnd.Next(2);
-                    if (_pictureBoxes[i, j].BackColor == Color.Red)
+                    if (_panels[i, j].BackColor == Color.Red)
                     {
                         if (r == 1)
                             TryInfect(i, j);
@@ -118,9 +118,9 @@ namespace exx_14
             {
                 int r = rnd.Next(4);
                 if (IsValide(p[r, 0], p[r, 1]) &&
-                    _pictureBoxes[p[r, 0], p[r, 1]].BackColor == Color.White)
+                    _panels[p[r, 0], p[r, 1]].BackColor == Color.White)
                 {
-                    _pictureBoxes[p[r, 0], p[r, 1]].BackColor = Color.Red;
+                    _panels[p[r, 0], p[r, 1]].BackColor = Color.Red;
                 }
             }
         }
@@ -132,18 +132,18 @@ namespace exx_14
 
         private void CheckTicks(int x, int y)
         {
-            Color clr = _pictureBoxes[x, y].BackColor;
+            Color clr = _panels[x, y].BackColor;
 
             if (clr == Color.Red &&
                 _ticks[x, y] >= 6)
             {
-                _pictureBoxes[x, y].BackColor = Color.Tan;
+                _panels[x, y].BackColor = Color.Tan;
                 _ticks[x, y] = 0;
             }
             else if (clr == Color.Tan &&
                      _ticks[x, y] >= 4)
             {
-                _pictureBoxes[x, y].BackColor = Color.White;
+                _panels[x, y].BackColor = Color.White;
                 _ticks[x, y] = 0;
             }
         }

@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\brano\\source\\repos\\week_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72A2D39A-2A9E-4FAD-BB7E-B0A5498A77D0}|exx_12\\exx_12.csproj|C:\\Users\\brano\\source\\repos\\week_1\\exx_12\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{72A2D39A-2A9E-4FAD-BB7E-B0A5498A77D0}|exx_12\\exx_12.csproj|solutionrelative:exx_12\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{145262BD-30DA-472F-89C8-228FC58C0809}|exx_14\\exx_14.csproj|c:\\users\\brano\\source\\repos\\week_1\\exx_14\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{145262BD-30DA-472F-89C8-228FC58C0809}|exx_14\\exx_14.csproj|solutionrelative:exx_14\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21DA2535-0CDA-4A6F-A4B7-02137A630CEA}|exx_11\\exx_11.csproj|C:\\Users\\brano\\source\\repos\\week_1\\exx_11\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21DA2535-0CDA-4A6F-A4B7-02137A630CEA}|exx_11\\exx_11.csproj|solutionrelative:exx_11\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72A2D39A-2A9E-4FAD-BB7E-B0A5498A77D0}|exx_12\\exx_12.csproj|c:\\users\\brano\\source\\repos\\week_1\\exx_12\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72A2D39A-2A9E-4FAD-BB7E-B0A5498A77D0}|exx_12\\exx_12.csproj|solutionrelative:exx_12\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{145262BD-30DA-472F-89C8-228FC58C0809}|exx_14\\exx_14.csproj|C:\\Users\\brano\\source\\repos\\week_1\\exx_14\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{145262BD-30DA-472F-89C8-228FC58C0809}|exx_14\\exx_14.csproj|solutionrelative:exx_14\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\brano\\source\\repos\\week_1\\exx_11\\Form1.cs",
-              "RelativeDocumentMoniker": "exx_11\\Form1.cs",
-              "ToolTip": "C:\\Users\\brano\\source\\repos\\week_1\\exx_11\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "exx_11\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\brano\\source\\repos\\week_1\\exx_14\\Form1.cs",
+              "RelativeDocumentMoniker": "exx_14\\Form1.cs",
+              "ToolTip": "C:\\Users\\brano\\source\\repos\\week_1\\exx_14\\Form1.cs",
+              "RelativeToolTip": "exx_14\\Form1.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAcwGMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T19:22:17.139Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-02-27T12:44:43.008Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\brano\\source\\repos\\week_1\\exx_12\\Form1.cs",
-              "RelativeDocumentMoniker": "exx_12\\Form1.cs",
-              "ToolTip": "C:\\Users\\brano\\source\\repos\\week_1\\exx_12\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "exx_12\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\brano\\source\\repos\\week_1\\exx_14\\Form1.cs",
+              "RelativeDocumentMoniker": "exx_14\\Form1.cs",
+              "ToolTip": "C:\\Users\\brano\\source\\repos\\week_1\\exx_14\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "exx_14\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T19:22:11.812Z",
+              "WhenOpened": "2024-02-27T12:34:13.838Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\brano\\source\\repos\\week_1\\exx_12\\Form1.cs",
-              "RelativeDocumentMoniker": "exx_12\\Form1.cs",
-              "ToolTip": "C:\\Users\\brano\\source\\repos\\week_1\\exx_12\\Form1.cs",
-              "RelativeToolTip": "exx_12\\Form1.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T18:52:52.931Z",
-              "EditorCaption": ""
             }
           ]
         }

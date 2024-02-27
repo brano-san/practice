@@ -28,57 +28,53 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.captureBtn = new System.Windows.Forms.Button();
+            this.saveStateBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // panel1
+            // captureBtn
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.panel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
-            this.panel1.ColumnCount = 9;
-            this.panel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.Enabled = false;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.RowCount = 9;
-            this.panel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.panel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.panel1.Size = new System.Drawing.Size(900, 900);
-            this.panel1.TabIndex = 1;
+            this.captureBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.captureBtn.Location = new System.Drawing.Point(69, 857);
+            this.captureBtn.Name = "captureBtn";
+            this.captureBtn.Size = new System.Drawing.Size(211, 70);
+            this.captureBtn.TabIndex = 0;
+            this.captureBtn.Text = "Условие введено";
+            this.captureBtn.UseVisualStyleBackColor = true;
+            this.captureBtn.Click += new System.EventHandler(this.CaptureField);
+            // 
+            // saveStateBtn
+            // 
+            this.saveStateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.saveStateBtn.Location = new System.Drawing.Point(542, 857);
+            this.saveStateBtn.Name = "saveStateBtn";
+            this.saveStateBtn.Size = new System.Drawing.Size(211, 70);
+            this.saveStateBtn.TabIndex = 1;
+            this.saveStateBtn.Text = "Сохранить состояние";
+            this.saveStateBtn.UseVisualStyleBackColor = true;
+            this.saveStateBtn.Click += new System.EventHandler(this.SaveState);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(892, 894);
-            this.Controls.Add(this.panel1);
-            this.MaximumSize = new System.Drawing.Size(908, 933);
-            this.MinimumSize = new System.Drawing.Size(908, 933);
+            this.ClientSize = new System.Drawing.Size(854, 934);
+            this.Controls.Add(this.saveStateBtn);
+            this.Controls.Add(this.captureBtn);
+            this.MaximumSize = new System.Drawing.Size(870, 973);
+            this.MinimumSize = new System.Drawing.Size(870, 973);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sudoku";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.TableLayoutPanel panel1;
+        private System.Windows.Forms.Button captureBtn;
+        private System.Windows.Forms.Button saveStateBtn;
     }
 }
 
